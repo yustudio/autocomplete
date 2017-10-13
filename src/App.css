@@ -3,32 +3,27 @@
   margin-top: 10px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
 .App-title {
   font-size: 1.5em;
+  margin: 30px 0px 10px 0px;
 }
 
-.App-intro {
-  font-size: large;
+.App-text {
+  border-radius: 5px;
 }
 
-.Words {
+.App-words {
   border: 1px #8E99B6 solid;
   padding: 5px;
-  margin: 2px auto;
+  margin: 5px auto;
   max-width: 50vw;
   cursor: pointer;
+  background-color: #E2E0C3;
+  border-radius: 5px;
+}
+
+.App-words:hover {
+  background-color: #EEA486;
 }
 
 @keyframes App-logo-spin {

@@ -1,5 +1,7 @@
 ## Project Description
-This is a project to implement an autocomplete feature. 
+
+This project is to implement an autocomplete feature. 
+You can press space key at anytime to view all available words.
 
 ## Available Scripts
 

@@ -35,16 +35,20 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="App-title">
+         Autocomplete
+        </div>
         <textarea
           cols="100"
           rows="5"
           type="text"
           onChange={this.onChange.bind(this)}
           value={this.state.userInput}
+          className="App-text"
         />
         {
           this.state.matched.map((word, i) => 
-            <div class="Words" onClick={() => this.onClickMatched(word)}>
+            <div class="App-words" onClick={() => this.onClickMatched(word)}>
               {word}
             </div>
           )
