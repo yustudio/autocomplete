@@ -8,6 +8,11 @@
   margin: 30px 0px 10px 0px;
 }
 
+.App-github a {
+  font-size: .6em;
+  text-decoration: none;
+}
+
 .App-text {
   border-radius: 5px;
 }

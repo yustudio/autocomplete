@@ -37,6 +37,9 @@ class App extends Component {
       <div className="App">
         <div className="App-title">
          Autocomplete
+         <div className="App-github">
+          <a href="https://github.com/yustudio/autocomplete">Documentation/Source Code</a>
+         </div>
         </div>
         <textarea
           cols="100"
